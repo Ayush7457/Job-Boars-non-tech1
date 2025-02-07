@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Dashboard</title>
+    <script src="https://kit.fontawesome.com/93e17417c7.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle, #83aeff, #f7a2c5);
+            margin: 0;
+            padding: 0;
+        }
+
+        .text h2 {
+            text-align: center;
+        }
+        .text a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            margin: 2% auto;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        .card-main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff8e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for all images */
+    border-radius: 8px;
+    object-fit: cover; /* Ensures images cover the assigned space without distortion */
+}
+
+        .buttons {
+            margin-top: 10px;
+        }
+
+        button {
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background: #4CAF50;
+    font-size: 16px;
+    z-index: 1; /* Ensures the button stays above other content */
+    background-color: #4CAF50; /* Button background color */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10%;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="text">
+            <h2><a href="https://www.hiringstores.com/">Top MNCs are Hiring Now!!! For NON-TECH Roles</a></h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-main">
+            <div class="card">
+                <img src="./L&T.jpg" alt="L&T">
+                <h2>Larsen & Turbo</h2>
+                <p>L&T is hiring! Click here to Apply Now.</p>
+                <button onclick="window.open('https://www.foundit.in/seeker/registration?spl=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25&utm_source=ACPL&utm_medium=affiliate&utm_campaign=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25', '_blank')">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="./Reliance.png" alt="Reliance">
+                <h2>Reliance</h2>
+                <p>Reliance is Hiring for freshers and experienced candidates for multiple Job profiles.</p>
+                <button onclick="window.open('https://unstop.com/auth/signup?utm_source=Techsol&utm_medium=Affiliates&utm_campaign=signup&ref=AffTS2', '_blank')">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="./maruti-suzuki.jpg" alt="Maruti Suzuki">
+                <h2>Maruti Suzuki</h2>
+                <p>Maruti Suzuki is hiring for multiple positions in different Locations.</p>
+                <button onclick="window.open('https://www.foundit.in/seeker/registration?spl=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25&utm_source=ACPL&utm_medium=affiliate&utm_campaign=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25')">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="./pi-industries5248.jpg" alt="Pi Industries">
+                <h2>Pi Industries Ltd</h2>
+                <p>Join Pi Industries Ltd for non-tech Backgrounds</p>
+                <button onclick="window.open('https://unstop.com/auth/signup?utm_source=Techsol&utm_medium=Affiliates&utm_campaign=signup&ref=AffTS2', '_blank')">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="./Nayaara.jpeg" alt="nayara">
+                <h2>Nayara Energy Limited</h2>
+                <p>Off-campus drive for freshers and Experience Cadidate.</p>
+                <button onclick="window.open('https://www.foundit.in/seeker/registration?spl=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25&utm_source=ACPL&utm_medium=affiliate&utm_campaign=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25', '_blank')">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="./Adani.jpeg" alt="Adani">
+                <h2>Adani</h2>
+                <p> Adani has started hiring freshers for Multiple Position.</p>
+                <button onclick="window.open('https://unstop.com/auth/signup?utm_source=Techsol&utm_medium=Affiliates&utm_campaign=signup&ref=AffTS2', '_blank')">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="./ADBG.jpeg" alt="ADBG">
+                <h2>Aditya Birla Group</h2>
+                <p>Aditya Birla Group has started hiring freshers.</p>
+                <button onclick="window.open('https://www.foundit.in/seeker/registration?spl=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25&utm_source=ACPL&utm_medium=affiliate&utm_campaign=IN_paid_display_direct_acq_affiliate_ACPL_PAM1249_L2_Feb25', '_blank')">Apply Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
